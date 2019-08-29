@@ -1,4 +1,10 @@
 .idea/
 .git/
 
+# "temporary" build files
 target/
+out/
+build/
+
+#.gitignore for java
+*.class
