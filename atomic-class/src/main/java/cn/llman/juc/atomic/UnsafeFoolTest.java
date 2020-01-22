@@ -1,6 +1,5 @@
 package cn.llman.juc.atomic;
 
-import com.sun.org.glassfish.external.amx.AMXGlassfish;
 import org.junit.Test;
 import sun.misc.Unsafe;
 

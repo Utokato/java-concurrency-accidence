@@ -28,6 +28,8 @@ public class QuartzScheduler {
         Scheduler scheduler = new StdSchedulerFactory().getScheduler();
         scheduler.start();
         scheduler.scheduleJob(jobDetail, trigger);
+
+
     }
 
 }
