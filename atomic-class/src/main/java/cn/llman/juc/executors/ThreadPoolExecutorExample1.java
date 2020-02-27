@@ -31,8 +31,8 @@ public class ThreadPoolExecutorExample1 {
                 30,
                 TimeUnit.SECONDS,
                 new ArrayBlockingQueue<>(20),
-                Thread::new, new
-                ThreadPoolExecutor.AbortPolicy()
+                Thread::new,
+                new ThreadPoolExecutor.AbortPolicy()
         );
 
         IntStream.range(0, 35).forEach(i -> executor.execute(() -> {
